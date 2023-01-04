@@ -6,7 +6,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/steep2007/calculator?style=for-the-badge)
 
 
-<img src="css/calculator.jpg" alt="image of calculator">
+<img src="img/calculator.jpg" alt="image of calculator">
 
 > In this project, a simple calculator with HTML, CSS and JS was elaborated.
 
