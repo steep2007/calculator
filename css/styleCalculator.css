@@ -1,0 +1,72 @@
+.calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 14% 35% 10% 43%;
+    background-color: #AD8E70;
+    padding: 1% 2%;
+    width: 15%;
+    border-radius: 8px;
+}
+
+#saida {
+    background-color: #FFEBB7;
+    border-radius: 4px;
+    box-shadow: black 2px 1px;
+    text-decoration: none;
+    margin: 0 0 3% 0;
+    padding: 3% 0;
+}
+
+
+.numeros button {
+    background-color: #f1ece0;
+    border-radius: 3px;
+    margin-bottom: 3%;
+    padding: 4% 8%;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+
+#igual {
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    float: right;
+    background-color: #FF6E31;
+    padding: 40% 10% 40% 9%;
+}
+
+#ponto {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+#dividir {
+    padding: 4% 10%;
+    margin-left: 1.1%;
+}
+
+.operadores button {
+    background-color: #FF6E31;
+    border-radius: 3px;
+    margin-bottom: 3%;
+    padding: 4% 8%;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.direita-botao button {
+    background-color: #FF6E31;
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #243763;
+}

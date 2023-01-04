@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styleCalculator.css">
+    <script src="js/scriptCalculator.js"></script>
+</head>
+<body>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="calculadora">
+                    <div>
+                        <input type="text" id="saida">
+                        <br>
+                        <div class="botao">
+                             <div class="esqueda-botao"> 
+                                <div class="operadores">
+                                    <button onclick="pegaTecla(this)">+</button>
+                                    <button onclick="pegaTecla(this)">-</button>
+                                    <button onclick="pegaTecla(this)">&times;</button>
+                                    <button onclick="pegaTecla(this)" id="dividir">&divide;</button>
+                                    <br>
+                                </div>
+                                <div class="num-equal">
+                                    <div class="numeros">
+                                        <div class="linha">
+                                            <button onclick="pegaTecla(this)">7</button>
+                                            <button onclick="pegaTecla(this)">8</button>
+                                            <button onclick="pegaTecla(this)">9</button>
+                                            <button onclick="pegaTecla(this)" id="igual">=</button>
+                                        </div>
+                                        <div class="linha2">
+                                            <button onclick="pegaTecla(this)">4</button>
+                                            <button onclick="pegaTecla(this)">5</button>
+                                            <button onclick="pegaTecla(this)">6</button>
+                                        </div>
+                                        <div class="linha3">
+                                            <button onclick="pegaTecla(this)">1</button>
+                                            <button onclick="pegaTecla(this)">2</button>
+                                            <button onclick="pegaTecla(this)">3</button>
+                                        </div>
+                                            <button onclick="pegaTecla(this)">0</button>
+                                            <button onclick="pegaTecla(this)" id="ponto">.</button>
+                                            <button onclick="pegaTecla(this)">C</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
