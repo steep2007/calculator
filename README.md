@@ -2,6 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/steep2007/calculator?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/steep2007/calculator?style=for-the-badge)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/steep2007/calculator?style=for-the-badge)
 
 
 <img src="img/calculator.jpg" alt="image of calculator">
